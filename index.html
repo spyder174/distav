@@ -4,36 +4,68 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" conent="">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/jquery.mobile-1.0rc2.min.css">
-  <!-- end CSS-->
-
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>DISTAV - скидки шаговой доступности</title>
+    
+    <meta name="description" content="">
+    <meta name="author" conent="">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.0rc2.min.css">
+    <!-- end CSS-->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+    <!-- jquery mobile -->
+    <script src="js/libs/jquery.mobile-1.0rc2.min.js"></script>
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
-
-    <div id="container" data-role="page">
-        <div data-role="header">
-            <h1>DISTAV</h1> <br />скидки шаговой доступности
-        </div> 
-        <div data-role="content">
-            <p>Авторизация пользователя</p>
-            <a href="multipage.html" rel="external">sign in</a>
-        </div> 
-	    <div data-role="footer">
-            <h4> copyright DISTAV </h4>
-        </div> 
+    <div data-role="header" data-theme="c" class="ui-header ui-bar-c" role="banner">
+    	<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">DISTAV</h1>
+	</div>
+    <div class="ui-body ui-body-c">
+		<h3>Header</h3>
+		<p>This is content color swatch "B" and a preview of a <a href="#" class="ui-link">link</a>.</p>
+			<label for="slider1" id="slider1-label" class="ui-slider ui-input-text">Input slider:</label>
+		 	<input type="number" data-type="range" name="slider1" id="slider1" value="50" min="0" max="100" data-theme="c" class="ui-slider-input ui-input-text ui-body-c ui-corner-all ui-shadow-inset"><div class="ui-slider  ui-btn-down-c ui-btn-corner-all" role="application"><a href="#" class="ui-slider-handle ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow" data-theme="c" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50" title="50" aria-labelledby="slider1-label" style="left: 50%; "><span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true"><span class="ui-btn-text"></span></span></a></div>
+			<fieldset data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal"><div role="heading" class="ui-controlgroup-label">Cache settings:</div><div class="ui-controlgroup-controls">
+		     	
+		         	<div class="ui-radio"><input type="radio" name="radio-choice-a2" id="radio-choice-a2" value="on" checked="checked"><label for="radio-choice-a2" data-theme="c" class="ui-btn ui-btn-up-c ui-radio-on ui-btn-active ui-corner-left"><span class="ui-btn-inner ui-corner-left" aria-hidden="true"><span class="ui-btn-text">On</span></span></label></div>
+		         	
+		         	<div class="ui-radio"><input type="radio" name="radio-choice-a2" id="radio-choice-b2" value="off"><label for="radio-choice-b2" data-theme="b" class="ui-btn ui-btn-up-c ui-radio-off ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last" aria-hidden="true"><span class="ui-btn-text">Off</span></span></label></div>
+		         	
+		    </div></fieldset>
+		<a href="#" data-role="button" data-inline="true" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-inline ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true"><span class="ui-btn-text">Button</span></span></a>
+	</div>
+    <div class="ui-bar ui-bar-c">
+		<div data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal">
+			<a href="#" data-inline="true" data-role="button" data-theme="b" class="ui-btn ui-btn-up-c ui-btn-inline ui-corner-left"><span class="ui-btn-inner ui-corner-left" aria-hidden="true"><span class="ui-btn-text">Button</span></span></a><a href="#" data-inline="true" data-role="button" data-theme="c" class="ui-btn ui-btn-inline ui-btn-up-b"><span class="ui-btn-inner" aria-hidden="true"><span class="ui-btn-text">Button</span></span></a><a href="#" data-inline="true" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-inline ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last" aria-hidden="true"><span class="ui-btn-text">Button</span></span></a>
+		</div><!-- /controlgroup -->
+	</div>
+    <!--<div data-role="header" data-position="inline">
+        
+        <h1>DISTAV</h1> 
+        <h6>скидки шаговой доступности</h6>
+    </div> 
+    <div data-role="content" class="ui-body ui-body-a">
+        <p>Авторизация пользователя <a class="ui-link" data-form="ui-body-a" href="#" data-theme="a">links</a></p>
+        <div data-theme="a" class="ui-btn ui-btn-icon-left ui-btn-corner-all ui-shadow ui-btn-up-b" aria-disabled="false">
+            <span class="ui-btn-inner ui-btn-corner-all">
+                <span class="ui-btn-text">Button</span>
+                <span class="ui-icon ui-icon-star ui-icon-shadow"></span>
+            </span>           
+        </div>
+    </div> 
+    <div data-role="footer">
+        <h4> copyright DISTAV </h4>
+    </div> -->
        <!-- <header>
     DISTAV скидки шаговой доступности
         </header>
@@ -46,10 +78,6 @@
     </div> <!--! end of #container -->
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-    <!-- jquery mobile -->
-    <script src="js/libs/jquery.mobile-1.0rc2.min.js"></script>
     <!-- scripts concatenated and minified via ant build script-->
     <script defer src="js/plugins.js"></script>
     <script defer src="js/script.js"></script>
