@@ -39,7 +39,7 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
 
-form { margin: 0; }
+form { margin: 0; display:inline !important;}
 fieldset { border: 0; margin: 0; padding: 0; }
 label { cursor: pointer; }
 legend { border: 0; *margin-left: -7px; padding: 0; }
@@ -930,18 +930,24 @@ iframe .provider {
     padding:0;}
 .blockSales li {
     display:inline-block;
-    width:200px;
-    padding-right:10px;}
+    width:250px;
+    padding-right:10px;
+    margin-bottom:20px;}
 
 .footerMenu {
-    
-    border:1px solid red;
     display:block;
     text-align:center;
 }
 .footerMenu ul {
-    margin-left:0;}
+    margin:20px -11px 5px -11px;
+    padding:0;
+}
 .footerMenu li {
     display:inline-block;
     padding:0 10px;
-    list-style:none;}
+    list-style:none;
+    margin-left:-5px;
+    margin-bottom:5px;}
+
+.ui-btn {
+    margin-left:0 !important;}
