@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="css/normal.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile.structure-1.0rc2.min.css" />	
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script> 
+	<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+</head> 
+<body> 
+	
+	
+	<div class="theme-preview" style="margin:0 auto; max-width:960px;">
+		<div data-role="header" data-position="inline" class="ui-header ui-bar-c">
+			<h1>DISTAV</h1>
+            <p align="center">скидки шаговой доступности</p>
+		</div>
+		
+		<div class="ui-body ui-body-c">
+            
+            <h3>Вход через социальные сети</h3>
+            <script src="http://loginza.ru/js/widget.js" type="text/javascript"></script>
+            <iframe src="http://loginza.ru/api/widget?overlay=loginza&token_url=http://[RETURN_URL]" 
+            style="width:359px;height:300px;" scrolling="no" frameborder="no"></iframe>
+            
+            <form action="" method="post">
+                <input type="text" value="Логин" class="input ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                <input type="text" value="Пароль" class="input ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                <input type="submit" value="Пароль" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-a" data-form="ui-body-a">
+            </form>
+            <script src="http://loginza.ru/js/widget.js" type="text/javascript"></script>
+            <!--<a href="http://loginza.ru/api/widget?token_url=http://[RETURN_URL]" class="loginza">
+                <img src="http://loginza.ru/img/sign_in_button_gray.gif" alt="Войти через loginza"/>
+            </a>-->
+            
+            <!-- Блок ближайших скидок -->
+            <ul class="blockSales">
+                <li>
+                    <img src="img/img1.png" alt="" />
+                    <form action="" method="post">                      
+                        <input type="submit" value="Купить" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                     <form action="" method="post">                      
+                        <input type="submit" value="Подробней" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                </li>
+                <li>
+                    <img src="img/img2.png" alt="" />
+                    <form action="" method="post">                      
+                        <input type="submit" value="Купить" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                     <form action="" method="post">                      
+                        <input type="submit" value="Подробней" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                </li>
+                <li>
+                    <img src="img/img3.png" alt="" />
+                    <form action="" method="post">                      
+                        <input type="submit" value="Купить" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                     <form action="" method="post">                      
+                        <input type="submit" value="Подробней" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                </li>
+                <li>
+                    <img src="img/img4.png" alt="" />
+                    <form action="" method="post">                      
+                        <input type="submit" value="Купить" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                     <form action="" method="post">                      
+                        <input type="submit" value="Подробней" class="input ui-input-button ui-body-null ui-corner-all ui-shadow-inset ui-body-c" data-form="ui-body-c">
+                    </form>
+                </li>
+            </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal">
+    		    <a href="index.html" data-role="button" data-theme="c" class="ui-btn ui-corner-left ui-btn-up-c"><span class="ui-btn-inner ui-corner-left" aria-hidden="true"><span class="ui-btn-text">О проекте</span></span></a>
+			    <a href="index.html" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c"><span class="ui-btn-inner" aria-hidden="true"><span class="ui-btn-text">Партнерам</span></span></a>
+			    <a href="index.html" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c"><span class="ui-btn-inner" aria-hidden="true"><span class="ui-btn-text">Отзывы</span></span></a>
+                <a href="index.html" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last" aria-hidden="true"><span class="ui-btn-text">Техн.поддержка</span></span></a>
+		    </div>
+            <ul data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal">
+    			<li><a href="buttons-types.html" data-role="button" data-transition="fade" class="ui-btn-active ui-btn ui-btn-up-c ui-corner-left" data-theme="c"><span class="ui-btn-inner ui-corner-left" aria-hidden="true"><span class="ui-btn-text">О проекте</span></span></a></li>
+				<li><a href="buttons-options.html" data-role="button" data-transition="fade" data-theme="c" class="ui-btn ui-btn-up-c"><span class="ui-btn-inner" aria-hidden="true"><span class="ui-btn-text">Партнерам</span></span></a></li>
+				<li><a href="buttons-methods.html" data-role="button" data-transition="fade" data-theme="c" class="ui-btn ui-btn-up-c"><span class="ui-btn-inner" aria-hidden="true"><span class="ui-btn-text">Отзывы</span></span></a></li>
+				<li><a href="buttons-events.html" data-role="button" data-transition="fade" data-theme="c" class="ui-btn ui-corner-right ui-controlgroup-last ui-btn-up-c"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last" aria-hidden="true"><span class="ui-btn-text">Техн.поддержка</span></span></a></li>
+			</ul>
+		</div>
+        
+        <div data-role="footer" data-position="inline" class="ui-footer ui-bar-c">
+			<h1>© 1999—2011, DISTAV</h1>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
